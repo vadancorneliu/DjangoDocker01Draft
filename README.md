@@ -25,33 +25,37 @@ Make sure you have installed all of the following prerequisites on your developm
 
 To get started with this project, follow these steps:
 
-2. Open Command Prompt and navigate to the your install directory:
+1. Open Command Prompt and navigate to the your install directory:
 
 ```
 cmd
 ```
 
-1. Clone the repository to your local machine:
+```
+cd YourDirectory
+```
+
+2. Clone the repository to your local machine:
 
 ```
 git clone https://github.com/vadancorneliu/DjangoDocker01Draft.git
 ```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
 ```
 cd DjangoDocker01Draft
 ```
 
-3. Run the Docker container using the provided script:
+4. Run the Docker container using the provided script:
 
 ```
 docker-cmd.bat
 ```
 
-4. Once the container is up and running, you can access the Django server locally at [http://localhost:8000](http://localhost:8000).
+5. Once the container is up and running, you can access the Django server locally at [http://localhost:8000](http://localhost:8000).
    
-5. You can then modify the Django script using Visual Studio Code on your local machine.
+6. You can then modify the Django script using Visual Studio Code on your local machine.
 
 
 ## Files

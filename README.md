@@ -72,4 +72,4 @@ This repository contains the following files:
 
 ## License
 
-This project is licensed under the [Creative Commons license](LICENSE).
+This project is licensed under the [Unlicense](.).

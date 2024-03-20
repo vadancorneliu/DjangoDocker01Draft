@@ -1,29 +1,46 @@
-# Project Name
+# Dockerized Django Server
 
-Brief description or introduction to the project.
+This project provides a Dockerized environment for running a Django server. By downloading the files onto your local machine and executing docker-cmd.bat, a Docker container will be created and initialized with the Django server. You can then modify the Django script using Visual Studio Code on your local machine.
 
 ## Table of Contents
 
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Files](#files)
-4. [Contributing](#contributing)
+1. [Requirements](#requirements)
+2. [Note](#note)
+3. [Installation](#installation)
+4. [Files](#files)
 5. [License](#license)
+
+## Requirements
+
+Make sure you have installed all of the following prerequisites on your development machine:
+- Visual Code Studio (https://code.visualstudio.com/);
+-	Docker Desktop (https://www.docker.com/products/docker-desktop/);
+-	Git (https://git-scm.com/).
+
+## Note
+- Ensure Docker is properly configured and running on your system;
+- Make sure to have the necessary permissions to execute the batch file.
 
 ## Installation
 
 To get started with this project, follow these steps:
 
+2. Open Command Prompt and navigate to the your install directory:
+
+```
+cmd
+```
+
 1. Clone the repository to your local machine:
 
 ```
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/vadancorneliu/DjangoDocker01Draft.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd your-repository
+cd DjangoDocker01Draft
 ```
 
 3. Run the Docker container using the provided script:
@@ -33,10 +50,9 @@ docker-cmd.bat
 ```
 
 4. Once the container is up and running, you can access the Django server locally at [http://localhost:8000](http://localhost:8000).
+   
+5. You can then modify the Django script using Visual Studio Code on your local machine.
 
-## Usage
-
-Describe how to use the project once the Docker container is running. Include any additional setup or configurations that may be required.
 
 ## Files
 
@@ -46,18 +62,9 @@ This repository contains the following files:
 - `Dockerfile`: Dockerfile for building the Docker image.
 - `docker-compose.yml`: Docker Compose file for defining services.
 - `requirements.txt`: List of Python dependencies.
+- `README.docx`: Description of the project.
 
-## Contributing
-
-If you'd like to contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/improvement`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/improvement`).
-6. Create a new Pull Request.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Creative Commons license](LICENSE).

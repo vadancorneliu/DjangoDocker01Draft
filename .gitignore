@@ -1,0 +1,7 @@
+venv/
+.idea/
+.git/
+__pycache__/
+core/__pycache__/
+home/__pycache__/
+github-cmd.txt

@@ -53,9 +53,11 @@ cd DjangoDocker01Draft
 docker-cmd.bat
 ```
 
-5. Once the container is up and running, you can access the Django server locally at [http://localhost:8000](http://localhost:8000).
+## Usage
+
+- Once the container is up and running, you can access the Django server locally at [http://localhost:8000](http://localhost:8000).
    
-6. You can then modify the Django script using Visual Studio Code on your local machine.
+- You can then modify the Django script using Visual Studio Code on your local machine.
 
 
 ## Files

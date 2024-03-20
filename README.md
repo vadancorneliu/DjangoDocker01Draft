@@ -72,4 +72,4 @@ This repository contains the following files:
 
 ## License
 
-This project is licensed under the [Unlicense](.).
+This project is licensed under the [Unlicense](UNLICENSE.txt).
